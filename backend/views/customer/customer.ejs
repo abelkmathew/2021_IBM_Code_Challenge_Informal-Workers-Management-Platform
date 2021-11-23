@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login</title>
+</head>
+<body>
+    <h1>Customer Login</h1>
+    <form action="/newCustomer" method="POST">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" name="customer[name]" id="first">
+        </div>
+        <div>
+            <label for="last">Last Name</label>
+            <input type="text" name="customer[lastName]" id="last">
+        </div>
+        <div>
+            <label for="location">Location</label>
+            <input type="text" name="customer[location]" id="location">
+        </div>
+        <div>
+            <label for="desc">Description</label>
+            <input type="text" name="customer[description]" id="desc">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
