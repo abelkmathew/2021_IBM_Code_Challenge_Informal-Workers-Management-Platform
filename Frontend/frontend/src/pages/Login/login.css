@@ -1,0 +1,51 @@
+
+.loginPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #857EDB;
+
+}
+.headText{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.loginPageWrapper{
+    max-width: 80vw;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.form-control input{
+    
+    margin: 20px 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 40px;
+    
+}
+
+.form button{
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 0;
+}
+.pwd{
+    margin-top: 2rem;
+}
+.forgotPWD{
+    text-align: right;
+}
+.btn{
+    background-color: #434c97;
+    font-size: large;
+    color: #fff;
+    width: 100%;
+    
+}
+

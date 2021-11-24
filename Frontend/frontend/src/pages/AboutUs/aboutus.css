@@ -1,0 +1,10 @@
+.aboutPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #857EDB;
+    margin-top: 2rem;
+
+}
+.aboutHeading{
+    text-align: center;
+}
