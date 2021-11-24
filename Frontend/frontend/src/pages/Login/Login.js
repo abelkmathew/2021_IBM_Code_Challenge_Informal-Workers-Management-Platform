@@ -14,10 +14,10 @@ function Login() {
                     <div className="pwd"><input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password"></input>
                     </div>
                     <div className="forgotPWD"><a href="#">Forgot password ?</a></div>
-                    <button type="button" class="btn ">Login</button>
+                    <Link to="/customerhome"> <button type="button" class="btn ">Login</button></Link>
                     <div className="signUp">
                         Don't have an account?
-                        <Link to="signUp"> Sign Up</Link>
+                        <Link to="/signUp"> Sign Up</Link>
                     </div>
                 </div>
             </div>

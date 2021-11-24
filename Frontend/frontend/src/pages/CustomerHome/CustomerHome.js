@@ -10,16 +10,18 @@ function CustomerHome() {
         <div className="container post">
             <div className="card" >
                 <div class="card-body">
-                    <h5 className="post-title">Experienced Workers Required!</h5>
+                    <h3 className="post-title">Work titile</h3>
                     <h6 className="post">Category: Painting</h6>
+                    <h6 className="post">No. of workers needed: 3</h6>
                     <p className="post-text">This is a sample description about the work to be completed</p>
                     <button type="button" className="btn btn-warning">Completed</button>
                 </div>
             </div>
             <div className="card" >
                 <div class="card-body">
-                    <h5 className="post-title">Experienced Workers Required!</h5>
+                    <h3 className="post-title">Work Title</h3>
                     <h6 className="post">Category: Plumbing</h6>
+                    <h6 className="post">No. of workers needed: 2</h6>
                     <p className="post-text">This is a sample description about the work to be completed.</p>
                     <button type="button" className="btn btn-warning">Completed</button>
                 </div>

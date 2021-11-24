@@ -6,10 +6,13 @@ import image from './about.png'
 function AboutUs() {
     return (
         <div className="aboutPage">
-            <div className="container aboutWrapper">
+            <div className=" aboutWrapper">
                 <div className="aboutHeading"><h1>About Us</h1>
-                <h3>Our Vision</h3></div>
-                <div class="row">
+                </div>
+                <div class="container">
+                    
+                
+                <div class=" row">
                     <div className="col-md-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Aenean maximus mauris nec sapien accumsan, vel dapibus ex auctor. 
@@ -35,7 +38,7 @@ function AboutUs() {
                         Infopark-684521
                     </p>
                 </div>
-                
+                </div>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ function CustomerSignUp() {
     return (
         <div className="customerSignup">
             <div className="container form">
-                    <div className="headText">CustomerSignUp</div>
+                    <div className="headText">Customer Sign Up</div>
                     <div class="inputField">
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name"></input>
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name"></input>

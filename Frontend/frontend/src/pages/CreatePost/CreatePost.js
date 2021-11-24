@@ -1,5 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './CreatePost.css';
+
+
+// const onSubmit =(values,onSubmitProps)=>{
+//   console.log('Form data',values)
+//   console.log('submit props', onSubmitProps)
+//   onSubmitProps.setSubmitting(false)
+//   onSubmitProps.resetForm()
+// }
+
+
 
 function CreatPost() {
     return (

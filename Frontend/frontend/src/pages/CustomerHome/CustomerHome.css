@@ -1,7 +1,8 @@
 .customerHomepage{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: #fff;
+    background-color: #4c5057;
 
 }
 .customerHomepage .HeadText{
@@ -18,6 +19,9 @@
     color:black;
 
 }
+.post h3{
+    font-weight: bold;
+}
 .card .card-title{
     color: black;
 }
@@ -32,6 +36,9 @@
     font-size: xx-large;
     font-weight: bold;
     border-radius: 80px;
-    background-color: #434c97;
+    background-color: #1a2266;
     color: #fff;
+}
+.createBtn button:hover{
+    color:yellow;
 }
