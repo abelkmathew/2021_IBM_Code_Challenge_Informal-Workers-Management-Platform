@@ -3,24 +3,28 @@
 .homePage{
     width: 100vw;
     height: 100vh;
-    background-color: #857EDB;
+    background-color: #4c5057;
+
 
 }
 
 .homePageWrapper{
     max-width: 80vw;
     margin: 0 auto;
+    padding-top:100px ;
+
 }
 
 .buttons{
     width: 100%;
     text-align: center;
+    padding-top: 5rem;
 }
 
-.buttons button{
+.buttons button {
     width: 80%;
     margin: 20px 0;
-    background-color: #BFC4F0;
+    background-color: #1a2266;
     border: 0;
     border-radius: 10px;
     padding: 10px 40px;
@@ -28,4 +32,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.2em;
+    
 }
+.buttons .btn{
+    background-color: #1a2266;
+}
+

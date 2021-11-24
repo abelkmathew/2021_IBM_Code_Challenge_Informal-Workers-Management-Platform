@@ -21,7 +21,7 @@ function CreatPost() {
                <textarea className="form-control" rows="5" id="" placeholder="Type the work description"></textarea> <br/>
               </div>
               <div className="col-md-12 button">
-               <button type="submit" className="btn btn-danger">Send Message</button>   
+               <button type="submit" className="btn btn-danger">POST</button>   
               </div>
               </div>
 
