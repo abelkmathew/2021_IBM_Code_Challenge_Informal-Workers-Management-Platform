@@ -1,9 +1,27 @@
+
 .customerSignup{
     width: 100%;
     height: 100%;
-    background-color: #857EDB;
+    background-color: #4C5057;
 }
 
+.btn{
+    background-color: #1A2266;
+    padding: 20px;
+    height:40px;
+    width:25%;
+    text-align: center;
+}
+
+.inputFields{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-control{
+    margin-top: 30px;
+    
+}
 
 
 
