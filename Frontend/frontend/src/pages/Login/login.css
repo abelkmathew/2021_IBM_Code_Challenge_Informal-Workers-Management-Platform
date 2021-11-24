@@ -41,7 +41,7 @@
 .forgotPWD{
     text-align: right;
 }
-.btn{
+.loginPage .btn{
     background-color: #434c97;
     font-size: large;
     color: #fff;
