@@ -1,0 +1,37 @@
+
+.signuppage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #857EDB;
+}
+
+.signuppagewrapper{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.signuppagewrapper p{
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button{
+    width: 80%;
+    margin: 20px 0;
+    background-color: #BFC4F0;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
