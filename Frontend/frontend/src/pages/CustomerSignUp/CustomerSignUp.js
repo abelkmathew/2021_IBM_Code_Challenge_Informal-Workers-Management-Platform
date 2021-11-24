@@ -1,4 +1,5 @@
 import React from 'react'
+import './customersignup.css';
 
 function CustomerSignUp() {
     return (
