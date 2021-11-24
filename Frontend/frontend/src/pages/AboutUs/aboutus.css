@@ -1,10 +1,15 @@
 .aboutPage{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #857EDB;
-    margin-top: 2rem;
-
 }
 .aboutHeading{
     text-align: center;
+    padding-top: 50px;
+}
+.row{
+    padding-top: 30px;
+}
+.contactUs{
+    padding-bottom: 3rem;
 }
