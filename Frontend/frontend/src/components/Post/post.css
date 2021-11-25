@@ -5,13 +5,15 @@
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding:1rem;
     color: black;
 }
-
+.post .head{
+    text-align: left;
+    padding-left: 0.8rem;
+    font-weight: 200;
+    font-size: 1.5em;
+}
 .detailsBox{
     text-align: left;
 }
@@ -39,5 +41,18 @@
     display: flex;
     justify-content: space-between;
     
+}
+.phoneApplyWrapper button{
+    margin-left: 5rem;
+}
+.workerpost p{
+    text-align: left;
+    padding-left: 1rem;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+.customerpost .status{
+    text-align: left !important;
+    padding-left: 1rem;
 
 }

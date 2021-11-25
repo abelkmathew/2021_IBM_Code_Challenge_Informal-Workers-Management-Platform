@@ -5,7 +5,11 @@
     background-color: #4C5057;
     padding-top: 80px;
 }
-
+.WorkerSignup .headText{
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+}
 .WorkerSignup .btn{
     background-color: #1A2266;
     padding: 20px;

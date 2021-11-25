@@ -5,6 +5,11 @@
     background-color: #4C5057;
     padding-top: 80px;
 }
+.customerSignup .headText{
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+}
 
 .customerSignup .btn{
     background-color: #1A2266;

@@ -14,6 +14,7 @@ function Post({page}) {
                 <p id="category">Category:</p>
                 <p id="persons">No. of Persons:</p>
             </div>
+            <p className="head">Description</p>
             {dropdown ? 
                 
                 <div className="dropdown">
@@ -29,13 +30,17 @@ function Post({page}) {
             }
             {page === "customer" 
             ?
-            <div>
-                <p id="location">Location:</p>
+            <div className="customerpost">
+                <div className="status">Status:</div><br />
+                <button className="btn btn-warning">Completed</button>
             </div>
             :
-            <div className="phoneApplyWrapper">
-                <button className="btn btn-danger">Apply Now</button>
-                <div className="phoneicon"><img className="img-fluid" src={phone} alt="phone-icon"></img></div>
+            <div className="workerpost">
+                <p id="location">Location:</p>
+                <div className="phoneApplyWrapper ">
+                    <div className="applybtn"><button className="btn btn-danger">Apply Now</button></div>
+                    <div className="  phoneicon"><img className="img-fluid" src={phone} alt="phone-icon"></img></div>
+                </div>
             </div>
             }
             
