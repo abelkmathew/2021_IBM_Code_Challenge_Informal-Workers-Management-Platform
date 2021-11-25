@@ -2,7 +2,7 @@
 .loginPage{
     width: 100vw;
     height: 100vh;
-    background-color: #857EDB;
+    background-color: #4c5057;
 
 }
 .headText{
@@ -16,6 +16,7 @@
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    padding-top: 100px;
     
 }
 
@@ -41,11 +42,14 @@
 .forgotPWD{
     text-align: right;
 }
-.btn{
-    background-color: #434c97;
+.loginPage .btn{
+    background-color: #1a2266;
     font-size: large;
     color: #fff;
     width: 100%;
     
 }
 
+.signUp{
+    color:#fff;
+}

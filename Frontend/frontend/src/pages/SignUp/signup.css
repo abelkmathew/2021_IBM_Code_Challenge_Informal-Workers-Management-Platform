@@ -2,16 +2,17 @@
 .signuppage{
     width: 100vw;
     height: 100vh;
-    background-color: #857EDB;
+    background-color: #4c5057;
 }
 
 .signuppagewrapper{
     max-width: 80vw;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .signuppagewrapper p{
-    padding-top: 250px;
+    padding-top: 40px;
     text-align: center;
     color: white;
     font-size: 1.6em;
@@ -21,15 +22,16 @@
 .buttons{
     width: 100%;
     text-align: center;
+    padding-top: 0;
 }
 
 .buttons button{
     width: 80%;
     margin: 20px 0;
-    background-color: #BFC4F0;
+    background-color: #1a2266;
     border: 0;
     border-radius: 10px;
-    padding: 10px 40px;
+
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
