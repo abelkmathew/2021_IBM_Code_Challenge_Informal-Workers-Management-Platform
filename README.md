@@ -1,4 +1,5 @@
 # 2021_IBM_Code_Challenge_Informal-Workers-Management-Platform
+
 ### Description
   A platform that is able to take care of work related problems faced by skilled and unskilled labours in rural areas. This includes finding works to learn new skills by working as an apprentice. This platform act as a community for peer to peer learning among the labourers.
 ### Problem statement
@@ -31,6 +32,7 @@ We plan conduct a small campaign in an area through which we demonstrate the pla
 - Diya Denny  (Backend development)
 - Alan Leemon
 
-
+###Frontend Deployed
+https://code-challenge-ibm-jobit.netlify.app/
 
 
