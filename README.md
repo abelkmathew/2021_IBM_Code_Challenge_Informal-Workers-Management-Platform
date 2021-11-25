@@ -20,7 +20,7 @@
   - Express: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. 
   - MongoDB: MongoDB is a source-available cross-platform document-oriented database program.
   - Nodejs: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser. 
-### List of contributors:
+### Plan to market:
 We plan conduct a small campaign in an area through which we demonstrate the platform working to the workers there and introduce that to customers. This platform is shared to all other workers. 
 ### List of contributors:
 - Abel Koshy Mathew   (Frontend development)
