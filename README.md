@@ -27,4 +27,5 @@
 - Anisha T Anilkumar (Backend development)
 - Dhanuja Elezabeth Varkey  (Backend development)
 - Diya Denny  (Backend development)
+- Alan Leemon
 ### License and acknowledgements:
