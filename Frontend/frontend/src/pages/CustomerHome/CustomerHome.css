@@ -1,6 +1,6 @@
 .customerHomepage{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: #fff;
     background-color: #4c5057;
 
@@ -28,6 +28,8 @@
 .createBtn{
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 
 }
 .createBtn button{
