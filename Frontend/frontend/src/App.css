@@ -40,3 +40,16 @@
     transform: rotate(360deg);
   }
 }
+.companyname{
+  font-family: 'Arimo', sans-serif;
+  color:white;
+  font-size: 2em;
+  height: 100px;
+  width: 100px;
+  padding: 3rem 0 0 2rem;
+  
+}
+.logo-name{
+  display: flex;
+  justify-content: center;
+}

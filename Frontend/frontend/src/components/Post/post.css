@@ -26,4 +26,18 @@
 
 .dropdown{
     margin: 10px 0;
+    text-align: left;
+    padding-left: 1rem;
+}
+.phoneicon{
+    height:45px;
+    width: 45px;
+    justify-content: flex-end;
+    margin: 0 2rem 0 2rem;
+}
+.phoneApplyWrapper{
+    display: flex;
+    justify-content: space-between;
+    
+
 }

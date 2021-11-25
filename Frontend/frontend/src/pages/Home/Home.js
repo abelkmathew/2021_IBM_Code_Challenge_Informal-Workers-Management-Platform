@@ -7,7 +7,10 @@ function Home() {
     return (
         <div className="homePage">
             <div className="homePageWrapper">
-                <div className="logo"><img className="img-fluid" src={image} alt="Logo"></img></div>
+                <div className="logo-name">
+                    <div className="logo"><img className="img-fluid" src={image} alt="Logo"></img></div>
+                    <div className="companyname">jobit</div>
+                </div>
                 <div className="buttons">
                     <Link to="login"><button type="button" className="btn">LOG IN</button></Link>
                     <Link to="signup"><button  type="button" className="btn">SIGN UP</button></Link>

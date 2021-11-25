@@ -1,5 +1,6 @@
 import React,{ useState} from 'react'
 import './post.css';
+import phone from './phone-call.png'
 
 function Post({page}) {
 
@@ -10,17 +11,13 @@ function Post({page}) {
         <div className="post">
             <div className="detailsBox">
                 <p id="title">Title:</p>
-                <p id="location">Location:</p>
+                <p id="category">Category:</p>
                 <p id="persons">No. of Persons:</p>
             </div>
-            {page === "customer" 
-            ?
-            <div>Customer</div>
-            :
-            <div>Worker</div>
-            }
-            {/* {dropdown ? 
+            {dropdown ? 
+                
                 <div className="dropdown">
+            
                     <p id="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <button className="btn btn-success" onClick={()=> setDropdown(!dropdown)} id="viewless">View Less</button>
                 </div>
@@ -29,7 +26,19 @@ function Post({page}) {
                 <div className="dropdown">
                 <button className="btn btn-success" onClick={()=> setDropdown(!dropdown)} id="moredetails">More details</button>
                 </div> 
-            } */}
+            }
+            {page === "customer" 
+            ?
+            <div>
+                <p id="location">Location:</p>
+            </div>
+            :
+            <div className="phoneApplyWrapper">
+                <button className="btn btn-danger">Apply Now</button>
+                <div className="phoneicon"><img className="img-fluid" src={phone} alt="phone-icon"></img></div>
+            </div>
+            }
+            
             
         </div>
     )

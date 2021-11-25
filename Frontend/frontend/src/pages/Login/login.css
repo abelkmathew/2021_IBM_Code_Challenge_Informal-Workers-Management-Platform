@@ -5,11 +5,12 @@
     background-color: #4c5057;
 
 }
-.headText{
+.loginPage .headText{
     color: #fff;
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1rem;
+    padding-top: 2rem;
 }
 .loginPageWrapper{
     max-width: 80vw;

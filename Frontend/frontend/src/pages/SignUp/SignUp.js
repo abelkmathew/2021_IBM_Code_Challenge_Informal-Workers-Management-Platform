@@ -7,7 +7,10 @@ function SignUp() {
     return (
         <div className="signuppage">
             <div className="signuppagewrapper">
-            <div className="logo"><img className="img-fluid" src={image} alt="Logo"></img></div>
+            <div className="logo-name">
+                    <div className="logo"><img className="img-fluid" src={image} alt="Logo"></img></div>
+                    <div className="companyname">jobit</div>
+                </div>
                 <p> Are you ...</p>
                 <div className="buttons">
                     <Link to="worksignup"><button>LOOKING FOR A JOB</button></Link>
