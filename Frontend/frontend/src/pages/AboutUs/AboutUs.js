@@ -9,10 +9,10 @@ function AboutUs() {
             <div className=" aboutWrapper">
                 <div className="aboutHeading"><h1>About Us</h1>
                 </div>
-                <div class="container">
+                <div className="container">
                     
                 
-                <div class=" row">
+                <div className=" row">
                     <div className="col-md-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Aenean maximus mauris nec sapien accumsan, vel dapibus ex auctor. 
@@ -30,7 +30,7 @@ function AboutUs() {
                         <img className="img-fluid" src={image} alt="Vision"></img>
                     </div> 
                 </div>
-                .<div class="contactUs">
+                .<div className="contactUs">
                     <h3>Contact Developer:</h3>
                     <p>name@sample.com</p>
                     <p>+91-7548962458</p>

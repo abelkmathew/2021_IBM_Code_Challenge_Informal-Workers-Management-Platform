@@ -8,8 +8,8 @@ function CustomerHome() {
         <div className="customerHomepage">
             <div className="HeadText">Post</div>
 
-        <Post/>
-        <Post/>
+        <Post page={"customer"}/>
+        <Post page={"customer"}/>
 
         
         <div className="createBtn">
