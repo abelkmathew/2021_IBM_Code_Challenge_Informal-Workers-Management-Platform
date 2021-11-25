@@ -32,7 +32,7 @@ We plan conduct a small campaign in an area through which we demonstrate the pla
 - Diya Denny  (Backend development)
 - Alan Leemon
 
-###Frontend Deployed
+### Frontend Deployed
 https://code-challenge-ibm-jobit.netlify.app/
 
 
