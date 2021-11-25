@@ -21,6 +21,8 @@
   - MongoDB: MongoDB is a source-available cross-platform document-oriented database program.
   - Nodejs: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser. 
 ### List of contributors:
+We plan conduct a small campaign in an area through which we demonstrate the platform working to the workers there and introduce that to customers. This platform is shared to all other workers. 
+### List of contributors:
 - Abel Koshy Mathew   (Frontend development)
 - Ajith Arun  (Frontend development)
 - Aparna A B  (UI Design)
@@ -28,4 +30,7 @@
 - Dhanuja Elezabeth Varkey  (Backend development)
 - Diya Denny  (Backend development)
 - Alan Leemon
+
+
+
 
