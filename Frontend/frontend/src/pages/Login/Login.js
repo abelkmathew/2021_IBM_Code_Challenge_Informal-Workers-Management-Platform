@@ -17,11 +17,17 @@ function Login() {
                     <div className="pwd"><input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password"></input>
                     </div>
                     <div className="forgotPWD"><a href="#">Forgot password ?</a></div>
-                    <Link to="/customerhome"> <button type="button" class="btn ">Login</button></Link>
+                    <button type="button" class="btn ">Login</button>
                     <div className="signUp">
                         Don't have an account?
                         <Link to="/signup"> Sign Up</Link>
                     </div>
+                </div>
+                <div className="sampleuser">
+                    <div className="customerlogin">TEST LOGIN:
+                    <Link to="/customerhome"> <button type="button" class="btn btn-info">CUSTOMER Login</button></Link></div>
+                    <div className="Workerlogin">
+                    <Link to="/workerhome"> <button type="button" class="btn btn-info">WORKER Login</button></Link></div>
                 </div>
             </div>
         </div>

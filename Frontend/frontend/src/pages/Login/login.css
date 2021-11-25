@@ -1,7 +1,7 @@
 
 .loginPage{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #4c5057;
 
 }
@@ -43,7 +43,7 @@
 .forgotPWD{
     text-align: right;
 }
-.loginPage .btn{
+.loginPage .form .btn{
     background-color: #1a2266;
     font-size: large;
     color: #fff;
@@ -53,4 +53,15 @@
 
 .signUp{
     color:#fff;
+}
+
+.sampleuser{
+    padding-top: 5rem;
+    color: white;
+    width:15rem;
+    padding-bottom: 5rem;
+}
+.sampleuser button{
+    background-color: none !important;
+    margin: 1rem;
 }
