@@ -1,0 +1,22 @@
+.post{
+    max-width: 80%;
+    border: 1px solid black;
+    background-color: white !important;
+    margin: 0 auto;
+}
+
+.detailsBox{
+    text-align: left;
+}
+.detailsBox p{
+    padding:  1px 10px;
+    font-size: 1.5em;
+}
+
+#moredetails .viewless{
+    color: blue;
+}
+
+.dropdown{
+    margin: 10px 0;
+}

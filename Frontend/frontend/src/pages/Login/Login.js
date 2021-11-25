@@ -15,7 +15,7 @@ function Login() {
                     <button type="button" class="btn ">Login</button>
                     <div className="signUp">
                         Don't have an account?
-                        <Link to="signUp"> Sign Up</Link>
+                        <Link to="signup"> Sign Up</Link>
                     </div>
                 </div>
             </div>

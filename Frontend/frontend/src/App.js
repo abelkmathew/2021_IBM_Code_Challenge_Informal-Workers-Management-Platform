@@ -11,6 +11,7 @@ import Login from './pages/Login/Login';
 import Signup from './pages/SignUp/SignUp';
 import CustomerSignUp from './pages/CustomerSignUp/CustomerSignUp';
 import WorkerSignUp from './pages/WorkerSignUp/WorkerSignUp'
+import WorkerHome from './pages/WorkerHome/WorkerHome';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/signup' element={<Signup/>} />
           <Route path='/custsignup' element={<CustomerSignUp/>} />
           <Route path='/workersignup' element={<WorkerSignUp/>} />
+          <Route path='/workerhome' element={<WorkerHome/>} />
         </Routes>
       </div>
     </Router>
